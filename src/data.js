@@ -24,7 +24,7 @@ export const education = [
   },
 ];
 
-export const experience = [
+export const experience = 
   {
     Internship: [
       {
@@ -49,8 +49,7 @@ export const experience = [
         liveLink: "https://e-commerce-apk3.netlify.app/",
       },
     ],
-  },
-];
+  }
 
 export const skills = [
   "React",
