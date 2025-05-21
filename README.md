@@ -34,3 +34,6 @@ npm run dev
 - **React Router DOM** 
 - **Tailwind CSS** 
 - **React Icons** 
+
+
+[deployed Link](https://personal-dashboard-app-sigma.vercel.app/)

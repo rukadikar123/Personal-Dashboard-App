@@ -1,7 +1,7 @@
 export const profile = {
   name: "Siddharth Rukadikar",
   bio: "Web Developer passionate about building web apps.",
-  photo: "../public/Photo (1).jpg",
+  photo: "/Photo (1).jpg",
   contact: {
     email: "siddharthrukadikar@gmail.com",
     github: "https://github.com/rukadikar123",
