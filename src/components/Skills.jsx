@@ -3,11 +3,11 @@ import { skills } from "../data";
 
 function Skills() {
   return (
-    <section>
-      <h2 className="text-xl font-semibold mb-4">Skills</h2>
-       <div className="flex flex-wrap gap-2">
+    <section className="animate-fadeIn p-4 mt-6 bg-white rounded-lg shadow-md">
+      <h2 className="text-2xl font-semibold mb-4 text-gray-800">Skills</h2>
+       <div className="flex flex-wrap gap-4">
         {skills.map((skill, i) => (
-          <span key={i} className="bg-gray-200 px-3 py-1 rounded-full text-sm">{skill}</span>
+          <span key={i} className="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg text-sm shadow-sm hover:cursor-pointer hover:scale-110">{skill}</span>
         ))}
       </div>
     </section>

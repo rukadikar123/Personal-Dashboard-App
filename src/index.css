@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@tailwind utilities;
+
+
+@layer utilities {
+  @keyframes fadeInCustom {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animate-fadeIn {
+    opacity: 0; /* start invisible */
+    animation: fadeInCustom 0.7s ease-out forwards;
+  }
+}

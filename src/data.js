@@ -39,11 +39,11 @@ export const experience =
         title: "Mern Note App",
         techStack: "MongoDb, Express.Js, React.js, Node.js ",
         Github: "https://github.com/rukadikar123/MERN-Note-app",
-        liveLink: "https://mern-note-app-1-1cgt.onrender.com/login",
+        liveLink: "https://mern-note-app-1-1cgt.onrender.com",
       },
       {
         title: "E-Commerce App",
-        techStack: "React.js, readux, Firebase",
+        techStack: "HTML, CSS, tailwind Css, JavaScript, React.js, readux, Firebase",
         Github:
           "https://github.com/rukadikar123/FSJS-For-Practice/tree/main/reactPractice/E-shop",
         liveLink: "https://e-commerce-apk3.netlify.app/",
