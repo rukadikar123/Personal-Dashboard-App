@@ -1,12 +1,36 @@
-# React + Vite
+# Personal Dashboard Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal dashboard web application built with React, featuring a profile, education, experience, skills, and certifications. The app uses React Router for navigation and Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Profile:** Displays photo, name, bio, and contact links (Email, GitHub, LinkedIn).
+- **Education:** Shows academic background and qualifications.
+- **Experience/Internships:** Shows internship experience.
+- **Projects:** Highlights key projects with tech stack, GitHub, and live links.
+- **Skills:** Lists core technical skills.
+- **Extras:** Displays certifications.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+## Getting Started
+
+Install dependencies:
+```
+npm install
+```
+
+Start the development server:
+```
+npm run dev
+```
+
+## Dependencies
+
+- **React**
+- **React Router DOM** 
+- **Tailwind CSS** 
+- **React Icons** 
